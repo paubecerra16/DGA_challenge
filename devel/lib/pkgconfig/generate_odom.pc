@@ -1,0 +1,8 @@
+prefix=/home/pau/catkin_ws/devel
+
+Name: generate_odom
+Description: Description of generate_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

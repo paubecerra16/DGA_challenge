@@ -1,0 +1,8 @@
+prefix=/home/pau/catkin_ws/install
+
+Name: quadrotor_basic_sim
+Description: Description of quadrotor_basic_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

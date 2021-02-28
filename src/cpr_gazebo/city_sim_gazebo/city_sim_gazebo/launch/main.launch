@@ -18,9 +18,9 @@
 
 
   <!-- BEGIN ROBOT 1-->
-  <group ns="husky1">
-    <param name="tf_prefix" value="husky1_tf" />
-    <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1_tf" />
+    <include file="$(find city_sim_gazebo)/launch/spawn_husky.launch">
         <arg name="robot_namespace" value="husky1"/>
         <arg name="x" default="-30.0"/>
         <arg name="y" default="-30.0"/>
@@ -29,21 +29,29 @@
     </include>
   </group>
 
-<!--     <include file="$(find husky_gazebo)/launch/spawn_husky.launch"> -->
-<!--         <arg name="robot_namespace" value="husky2"/> -->
-<!--         <arg name="x" default="-29.0"/> -->
-<!--         <arg name="y" default="-30.0"/> -->
-<!--         <arg name="z" default="0.0"/> -->
-<!--         <arg name="yaw" default="0.0" /> -->
-<!--     </include> -->
+  <!-- BEGIN ROBOT 2-->
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+     <include file="$(find city_sim_gazebo)/launch/spawn_husky.launch"> 
+         <arg name="robot_namespace" value="husky2"/> 
+         <arg name="x" default="-29.0"/> 
+         <arg name="y" default="-30.0"/> 
+         <arg name="z" default="0.0"/> 
+         <arg name="yaw" default="0.0" /> 
+     </include> 
+  </group>
 
-<!--     <include file="$(find husky_gazebo)/launch/spawn_husky.launch"> -->
-<!--         <arg name="robot_namespace" value="husky3"/> -->
-<!--         <arg name="x" default="-28.0"/> -->
-<!--         <arg name="y" default="-30.0"/> -->
-<!--         <arg name="z" default="0.0"/> -->
-<!--         <arg name="yaw" default="0.0" /> -->
-<!--     </include> -->
+  <!-- BEGIN ROBOT 3-->
+  <group ns="robot3">
+    <param name="tf_prefix" value="robot3_tf" />
+     <include file="$(find city_sim_gazebo)/launch/spawn_husky.launch"> 
+         <arg name="robot_namespace" value="husky3"/> 
+         <arg name="x" default="-28.0"/> 
+         <arg name="y" default="-30.0"/> 
+         <arg name="z" default="0.0"/> 
+         <arg name="yaw" default="0.0" /> 
+     </include> 
+  </group>
 
 
 	<group ns="drone1">

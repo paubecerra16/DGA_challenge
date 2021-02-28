@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Start Gazebo with wg world running in (max) realtime -->
+  <include file="$(find husky_gazebo)/launch/city.launch" />
+
+  <!-- Start takeoff and land topics -->
+  <include file="$(find takeoff_land)/launch/takeoff_land.launch"/>
+
+  <!-- Spawn simulated quadrotor uav -->
+  <include file="$(find quadrotor_basic_sim)/launch/spawn_quadrotor.launch" >
+    <arg name="model" value="$(find hector_quadrotor_description)/urdf/quadrotor_hokuyo_utm30lx.gazebo.xacro"/>
+    <arg name="controllers" value="
+        controller/attitude
+        controller/velocity
+        controller/position
+        "/>
+  </include>
+
+  <include file="$(find hector_quadrotor_teleop)/launch/xbox_controller.launch" >
+    <arg name="control_mode" value="position"/>
+  </include>
+
+</launch>

@@ -123,7 +123,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -188,7 +187,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libtf.so
@@ -206,6 +204,21 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/librostime.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -218,7 +231,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/pau/catkin_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libtf.so
